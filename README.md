@@ -75,41 +75,51 @@ Design and build a speed controller for a permanent-magnet DC motor with a **sof
 
 *figure 1: Simulink Implementation of the design*
 
+
 ![Kicad_1](buckConverterImages/BC_KiCad.png)
 
 *figure 2: KiCad Schematic of the Buck Converter*
+
 
 ![KiCad_2](buckConverterImages/BC_Driver_KiCad.png)
 
 *figure 3: KiCad Schematic of the driver*
 
+
 ![KiCad_3](buckConverterImages/BC_ESP_KiCad.png)
 
 *figure 4: KiCad Schematic for the ESP32 socket*
+
 
 ![Perfboard_1](buckConverterImages/BC_Perfboard.png)
 
 *figure 5: Perfboard prototype*
 
+
 ![Perfboard_2](buckConverterImages/BC_Perfboard_Testing.png)
 
 *figure 6: Perfboard Testing*
+
 
 ![KiCad_original](buckConverterImages/BC_Board_Original.png)
 
 *figure 7: Original KiCad design, was scraped because it was too wide for the CNC machine*
 
+
 ![KiCad_Original_R2](buckConverterImages/BC_Board_Original_R2.png)
 
 *figure 8: Revision 2 of the board, narrower than the original*
+
 
 ![Board_machined](buckConverterImages/BC_Board_Machined.jpg)
 
 *figure 9: Machined board*
 
+
 ![Final_board](buckConverterImages/BC_Board_Assembled.png)
 
 *figure 10, machined and assembled board*
+
 
 ## 7. Results
 
@@ -122,9 +132,11 @@ Design and build a speed controller for a permanent-magnet DC motor with a **sof
 
 *figure x: 20kHz signal from low and high side outputs of the driver*
 
+
 ![Scope_2](buckConverterImages/BC_Scope_2.png)
 
 *figure x: 20kHz signal with a different duty cicle*
+
 ## 8. Theoretical switching and conduction losses (not in the original report)
 
 This is a first-order estimate at the motor's rated operating point. It is not a measurement.
