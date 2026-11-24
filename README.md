@@ -71,7 +71,7 @@ Design and build a speed controller for a permanent-magnet DC motor with a **sof
 4. **First PCB** (in-house milling). The drill and cutter were too wide for the pad spacing, which warped the board and left too little room for soldering.
 5. **Second PCB** with wider hole spacing and room for MOSFET heat sinks. Components moved over from the prototype, and the two small control-side capacitors (100 µF and 10 µF) were replaced by two 330 µF / 63 V capacitors.
 
-![Simulink|764](BC_Simulink.png)
+![Simulink|764](buckConverterImages/BC_Simulink.png)
 *figure 1: Simulink Implementation of the design*
 
 ![Kicad_1|745](BC_KiCad.png)
