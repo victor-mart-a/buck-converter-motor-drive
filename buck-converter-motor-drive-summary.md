@@ -1,6 +1,6 @@
 # Soft-Start Speed Controller for a 90 V DC Motor Using a Buck Converter
 
-*English summary of the original report "Control de Motores Eléctricos: Controlador de Velocidad" (Spanish), Universidad Panamericana, Guadalajara, September 27, 2024. Group project (three authors). Full report (Spanish): [link]*
+*English summary of the original report "Control de Motores Eléctricos: Controlador de Velocidad" (Spanish), Universidad Panamericana, Guadalajara, September 27, 2024. Group project (three authors). Full report (Spanish):
 
 > **Note on this summary.** It is a condensed translation of the report, plus a theoretical loss estimate that was **not** part of the original report. Where I corrected an equation from the original report, it is marked **(corrected)**.
 
@@ -70,8 +70,6 @@ Design and build a speed controller for a permanent-magnet DC motor with a **sof
 3. **Prototype on two perfboards** to check the design. Checked with an oscilloscope.
 4. **First PCB** (in-house milling). The drill and cutter were too wide for the pad spacing, which warped the board and left too little room for soldering.
 5. **Second PCB** with wider hole spacing and room for MOSFET heat sinks. Components moved over from the prototype, and the two small control-side capacitors (100 µF and 10 µF) were replaced by two 330 µF / 63 V capacitors.
-
-`[Insert: schematic, PCB layout, photo of prototype and final board]`
 
 ![Simulink|764](BC_Simulink.png)
 *figure 1: Simulink Implementation of the design*
