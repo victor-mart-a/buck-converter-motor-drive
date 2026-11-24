@@ -71,34 +71,34 @@ Design and build a speed controller for a permanent-magnet DC motor with a **sof
 4. **First PCB** (in-house milling). The drill and cutter were too wide for the pad spacing, which warped the board and left too little room for soldering.
 5. **Second PCB** with wider hole spacing and room for MOSFET heat sinks. Components moved over from the prototype, and the two small control-side capacitors (100 µF and 10 µF) were replaced by two 330 µF / 63 V capacitors.
 
-![Simulink|764](buckConverterImages/BC_Simulink.png)
+![Simulink](buckConverterImages/BC_Simulink.png)
 *figure 1: Simulink Implementation of the design*
 
-![Kicad_1|745](BC_KiCad.png)
+![Kicad_1](buckConverterImages/BC_KiCad.png)
 *figure 2: KiCad Schematic of the Buck Converter*
 
-![KiCad_2|606](BC_Driver_KiCad.png)
+![KiCad_2](buckConverterImages/BC_Driver_KiCad.png)
 *figure 3: KiCad Schematic of the driver*
 
-![KiCad_3|623](BC_ESP_KiCad.png)
+![KiCad_3](buckConverterImages/BC_ESP_KiCad.png)
 *figure 4: KiCad Schematic for the ESP32 socket*
 
-![Perfboard_1](BC_Perfboard.png)
+![Perfboard_1](buckConverterImages/BC_Perfboard.png)
 *figure 5: Perfboard prototype*
 
-![Perfboard_2|680](BC_Perfboard_Testing.png)
+![Perfboard_2](buckConverterImages/BC_Perfboard_Testing.png)
 *figure 6: Perfboard Testing*
 
-![KiCad_original|534](BC_Board_Original.png)
+![KiCad_original](buckConverterImages/BC_Board_Original.png)
 *figure 7: Original KiCad design, was scraped because it was too wide for the CNC machine*
 
-![KiCad_Original_R2|478](BC_Board_Original_R2.png)
+![KiCad_Original_R2](buckConverterImages/BC_Board_Original_R2.png)
 *figure 8: Revision 2 of the board, narrower than the original*
 
-![Board_machined|501](BC_Board_Machined.jpg)
+![Board_machined](buckConverterImages/BC_Board_Machined.jpg)
 *figure 9: Machined board*
 
-![Final_board](BC_Board_Assembled.png)
+![Final_board](buckConverterImages/BC_Board_Assembled.png)
 *figure 10, machined and assembled board*
 
 ## 7. Results
@@ -108,10 +108,10 @@ Design and build a speed controller for a permanent-magnet DC motor with a **sof
 - Qualitative load test: when the optocoupler tachometer disc was held back by hand, the controller raised the output voltage to recover speed.
 - Not measured in this project: efficiency, quantitative step response. 
 
-![Scope_1|777](BC_Scope_1.png)
+![Scope_1](buckConverterImages/BC_Scope_1.png)
 *figure x: 20kHz signal from low and high side outputs of the driver*
 
-![Scope_2|770](BC_Scope_2.png)
+![Scope_2](buckConverterImages/BC_Scope_2.png)
 *figure x: 20kHz signal with a different duty cicle*
 ## 8. Theoretical switching and conduction losses (not in the original report)
 
